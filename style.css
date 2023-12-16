@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+    background-color:darkslategray;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 12% 1fr 12%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    border: 3px solid aqua;
+    color: aqua;
+}
+
+nav {
+    border: 3px solid goldenrod;
+    color: goldenrod;
+    display: grid;
+    grid-column: 2/3;
+}
+
+main {
+    border: 3px solid greenyellow;
+    color: greenyellow;
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    flex-direction: row;
+
+}
+
+.main-sec-1 {
+    display: grid;
+    align-content: space-around;
+    border: 3px solid blue;
+    color: blue;
+}
+
+.main-sec-2 {
+    border: 3px solid cyan;
+    color: cyan;
+}
+
+footer {
+    border: 3px solid yellow;
+    color: yellow;
+}
